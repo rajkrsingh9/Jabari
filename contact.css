@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*background-color:   #4e1188;*/
+    background-color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+    background-color: hsl(0, 0%, 9%);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.logo-web img{
+    width: 90px;
+    height: 90px;
+    padding: 0px 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.nav-links ul{
+    display: flex;
+    gap: 2.5rem;
+    padding: 0px 30px ;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(110, 19, 194);
+}
+.nav-links li a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+}
+.card{
+    margin: auto;
+    display: flex;
+}
+.container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Spectral, serif;
+    color: hsl(203, 30%, 26%);
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.form{
+    background-color: #212121;
+    font-family: Spectral, serif;
+    color: rgb(127, 19, 228);
+    width: 450px;
+    height: 480px;
+    border: 1px solid rgb(127, 19, 228);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top:80px ;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+.form input{
+    background-color: aliceblue;
+    margin: 10px 0px;
+    font-size: 1rem;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border: 1px solid rgb(127, 19, 228);
+    border-radius: 10px;
+    padding: 5px;
+}
+textarea{
+    height: 150px;
+    background-color: aliceblue;
+    width: 250px;
+    border: 1px solid rgb(127, 19, 228);
+    border-radius: 10px;
+}
+video{
+    width: 800px;
+    height: 500px;
+    margin-top: 60px;
+}
+footer{
+    background-color: aliceblue;
+    margin-top: 90px;
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(203, 30%, 26%);
+    border-radius: 20px;
+}
+.summary h1{
+    color: rgb(110, 19, 194);
+    padding: 10px 30px;
+    margin: 20px 40px;
+    font-family: Spectral, serif;
+}
+.summary p{
+    padding: 10px 30px;
+    margin: 20px 40px;
+    line-height: 1.5rem;
+    color: hsl(203, 30%, 26%);
+    font-family: Spectral, serif;
+    font-size: 1.2rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social h2{
+    font-family: Spectral, serif;
+    color: rgb(110, 19, 194);
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    gap: 2rem;
+}
+.social a{
+    text-decoration: none;
+    font-family: Spectral, serif;
+    color:hsl(203, 30%, 26%) ;
+    font-size: 2rem;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav h2{
+    font-family: Spectral, serif;
+    color: rgb(110, 19, 194);
+    margin: 10px 0px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    gap: 2rem;
+}
+.nav ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    font-family: Spectral, serif;
+    color:hsl(203, 30%, 26%) ;
+    font-size: 1.3rem;
+    text-align:center ;
+}
+.nav li{
+    margin-bottom: 10px;
+}
+#home{
+    margin-top: 10px;
+}
+.copy{
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: Spectral, serif;
+    color:hsl(203, 30%, 26%) ;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}

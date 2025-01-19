@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /*background-color:   #4e1188;*/
+    background-color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+    background-color: #383838;    
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0px 10px;
+}
+.logo-web img{
+    width: 90px;
+    height: 90px;
+    padding: 0px 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.nav-links ul{
+    display: flex;
+    gap: 2.5rem;
+    padding: 0px 30px ;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(169, 104, 230);
+}
+.nav-links li a:hover{
+    /* text-decoration: underline; */
+    color: aliceblue;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: rgb(20, 20, 19);
+    font-size: 2rem;
+    font-family: 'Poppins', serif;
+    font-size: 42px;
+    margin-left: 30px;
+}
+html{
+    overflow-x: hidden;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 30px;
+    line-height: 1.7rem;
+    color: rgb(70, 10, 125);
+}
+button{
+    width: 140px;
+    height: 50px;
+    background-color:rgb(99, 90, 200);
+    border: none;
+    border-radius: 10px;
+}
+.login{
+    margin: 0px 200px;
+    margin-top: 50px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.image1 img{
+    width: 650px;
+    height: 500px;
+    
+}
+.news-section{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.news-section h1{
+    text-align: center;
+    margin-top: 50px;
+    color: hsl(203, 30%, 26%);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top:80px;
+    padding: 0px 60px;
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+.card1{
+    width: 320px;
+    height: 450px;
+    border: 1px solid rgb(166, 71, 255); 
+    border-radius: 30px;
+    padding: 0px 20px;
+
+}
+.card1:hover{
+    background-color: #383838; 
+}
+.card1 h1 {
+    color: rgb(184, 109, 255);
+}
+.card1 h3{
+    text-align: center;
+    font-family: 'Poppins', serif;
+    color:rgb(171, 82, 255);
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.card1 p{
+    font-family: Spectral, serif;
+    color: whitesmoke;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.card1 a{
+    text-decoration: none;
+}
+.card1 h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+footer{
+    background-color: aliceblue;
+    margin-top: 90px;
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(203, 30%, 26%);
+    border-radius: 20px;
+}
+.summary h1{
+    color: rgb(110, 19, 194);
+    padding: 10px 30px;
+    margin: 20px 40px;
+    font-family: Spectral, serif;
+}
+.summary p{
+    padding: 10px 30px;
+    margin: 20px 40px;
+    line-height: 1.5rem;
+    color: whitesmoke;
+    font-family: Spectral, serif;
+    font-size: 1.2rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social h2{
+    font-family: Spectral, serif;
+    color: rgb(110, 19, 194);
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    gap: 2rem;
+}
+.social a{
+    text-decoration: none;
+    font-family: Spectral, serif;
+    color:hsl(203, 30%, 26%) ;
+    font-size: 2rem;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav h2{
+    font-family: Spectral, serif;
+    color: rgb(110, 19, 194);
+    margin: 10px 0px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    gap: 2rem;
+}
+.nav ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    font-family: Spectral, serif;
+    color:hsl(203, 30%, 26%) ;
+    font-size: 1.3rem;
+    text-align:center ;
+}
+.nav li{
+    margin-bottom: 10px;
+}
+#home{
+    margin-top: 10px;
+}
+.copy{
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: Spectral, serif;
+    color:hsl(203, 30%, 26%) ;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
